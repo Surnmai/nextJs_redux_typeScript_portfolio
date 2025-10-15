@@ -39,3 +39,30 @@ export const services = [
       "Designing interfaces that are intuitive, efficient, and enjoyable to use.",
   },
 ];
+
+// resume
+// import icons
+import { FaCodepen, FaReact } from "react-icons/fa";
+import { BsDatabase } from "react-icons/bs";
+import { BiBadge } from "react-icons/bi";
+
+export const resume = [
+  { Icon: FaCodepen, role: "Full-Stack Developer" },
+  { Icon: FaReact, role: "Front-End Developer" },
+  { Icon: BsDatabase, role: "Backend Developer" },
+  {
+    Icon: BiBadge,
+    role: "Ghana Communication Technology University",
+    date: "Jan 2024 - August 2025",
+  },
+  {
+    Icon: FaReact,
+    role: "BSc Computer Science",
+    date: "Jan 2024 - August 2025",
+  },
+  {
+    Icon: BiBadge,
+    role: "Koforidua Technical University",
+    date: "October 2015 - November 2018",
+  },
+];
