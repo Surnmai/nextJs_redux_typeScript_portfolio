@@ -121,34 +121,59 @@ export const clientReview = [
     name: "Jenny Doe",
     role: "CEO, Landscape",
     detail:
-      "&quot; Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe? &quot;",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe?",
   },
   {
     img: Cimg2,
     name: "John Doe",
     role: "UI/UX Designer",
     detail:
-      "&quot; Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe? &quot;",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe?",
   },
   {
-    img: Cimg1,
+    img: Cimg3,
     name: "Jessica Doe",
     role: "CEO, Tech Company",
     detail:
-      "&quot; Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe? &quot;",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe?",
   },
   {
     img: Cimg4,
     name: "Jora Doe",
     role: "Web Developer",
     detail:
-      "&quot; Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe? &quot;",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe?",
   },
   {
     img: Cimg5,
     name: "Jara Doe",
     role: "CEO, Design Studio",
     detail:
-      "&quot; Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe? &quot;",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe?",
+  },
+];
+
+// blog images  import
+import blog1 from "../public/images/b1.jpg";
+import blog2 from "../public/images/b2.jpg";
+import blog3 from "../public/images/b3.jpg";
+export const blog = [
+  {
+    img: blog1,
+    title: "Learn how to build an amazing portfolio website using nextJs",
+    date: "5th July 2025",
+    tags: [{ tag: "React JS" }, { tag: "Next JS" }, { tag: "Tailwind CSS" }],
+  },
+  {
+    img: blog2,
+    title: "Learn how to build an amazing portfolio website using nextJs",
+    date: "5th July 2025",
+    tags: [{ tag: "React JS" }, { tag: "Next JS" }, { tag: "Tailwind CSS" }],
+  },
+  {
+    img: blog3,
+    title: "Learn how to build an amazing portfolio website using nextJs",
+    date: "5th July 2025",
+    tags: [{ tag: "React JS" }, { tag: "Next JS" }, { tag: "Tailwind CSS" }],
   },
 ];
