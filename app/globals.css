@@ -9,6 +9,16 @@
   --color-bgColor: #0d0d1f;
   --color-navBg: #0f142ed9;
   --color-heroBg: #0c0c48aa;
+  --color-skillBg: #14134145;
+}
+
+@layer base {
+  section {
+    @apply py-16 container;
+  }
+  html {
+    overflow-x: hidden;
+  }
 }
 
 @utility container {
@@ -29,7 +39,7 @@
 }
 
 @layer components {
-  .section {
+  /* .section {
     @apply py-16;
-  }
+  } */
 }

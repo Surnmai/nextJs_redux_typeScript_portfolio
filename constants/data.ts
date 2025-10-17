@@ -66,3 +66,89 @@ export const resume = [
     date: "October 2015 - November 2018",
   },
 ];
+
+// import projects images
+import Img1 from "../public/images/p1.jpg";
+import Img2 from "../public/images/p2.jpg";
+import Img3 from "../public/images/p3.jpg";
+import Img4 from "../public/images/p4.jpg";
+export const projects = [
+  { img: Img1, title: "Modern Finance Dashboard UI", subtext: "Apps , UI/UX" },
+  {
+    img: Img2,
+    title: "Portfolio Website for Creatives",
+    subtext: "Branding , Motion",
+  },
+  {
+    img: Img3,
+    title: "Brand Identity for Startups",
+    subtext: "Branding , UI/UX",
+  },
+  {
+    img: Img4,
+    title: "Portfolio Website for Creatives",
+    subtext: "Apps , UI/UX",
+  },
+];
+
+// import icons
+import {
+  SiJavascript,
+  SiReact,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
+export const skills = [
+  { name: "JavaScript", Icon: SiJavascript, percentage: 89 },
+  { name: "React.js", Icon: SiReact, percentage: 92 },
+  { name: "Next.js", Icon: SiNextdotjs, percentage: 90 },
+  { name: "Node.js", Icon: SiNodedotjs, percentage: 75 },
+  { name: "Tailwind CSS", Icon: SiTailwindcss, percentage: 94 },
+  { name: "TypeScript", Icon: SiTypescript, percentage: 84 },
+];
+
+// import images
+import Cimg1 from "../public/images/c1.png";
+import Cimg2 from "../public/images/c2.png";
+import Cimg3 from "../public/images/c3.png";
+import Cimg4 from "../public/images/c4.png";
+import Cimg5 from "../public/images/c5.png";
+export const clientReview = [
+  {
+    img: Cimg1,
+    name: "Jenny Doe",
+    role: "CEO, Landscape",
+    detail:
+      "&quot; Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe? &quot;",
+  },
+  {
+    img: Cimg2,
+    name: "John Doe",
+    role: "UI/UX Designer",
+    detail:
+      "&quot; Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe? &quot;",
+  },
+  {
+    img: Cimg1,
+    name: "Jessica Doe",
+    role: "CEO, Tech Company",
+    detail:
+      "&quot; Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe? &quot;",
+  },
+  {
+    img: Cimg4,
+    name: "Jora Doe",
+    role: "Web Developer",
+    detail:
+      "&quot; Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe? &quot;",
+  },
+  {
+    img: Cimg5,
+    name: "Jara Doe",
+    role: "CEO, Design Studio",
+    detail:
+      "&quot; Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil perferendis quisquam harum iusto ratione necessitatibus tempora architecto? Ipsam, saepe? &quot;",
+  },
+];

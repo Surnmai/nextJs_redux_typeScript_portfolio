@@ -5,7 +5,7 @@ import React from "react";
 const Services = () => {
   return (
     <>
-      <section className="section container">
+      <section>
         <h1 className="text-white text-center md:text-4xl xl:text-5xl font-bold">
           Collaborate with brand <br /> and agencies to create
           <br /> impactful results

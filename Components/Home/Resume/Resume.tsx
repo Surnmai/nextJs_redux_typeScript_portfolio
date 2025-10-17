@@ -7,7 +7,7 @@ import { resume } from "@/constants/data";
 const Resume = () => {
   return (
     <>
-      <section className="section container">
+      <section>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-10">
           {/* Work Part  */}
           <div>
