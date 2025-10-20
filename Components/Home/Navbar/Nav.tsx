@@ -67,7 +67,7 @@ const Nav = () => {
         navBg ? "bg-navBg shadow-lg" : "bg-transparent"
       } fixed inset-0 w-full h-[12vh] z-40  transition-all duration-500`}
     >
-      <div className="container flex justify-between items-center h-full w-full">
+      <div className="mx-auto flex justify-between items-center h-full w-[90%]">
         {/* logo  */}
         <div className="flex items-center justify-center space-x-2">
           <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center flex-col">

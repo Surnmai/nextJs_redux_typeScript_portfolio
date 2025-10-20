@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+
+// import components
 import Nav from "../Components/Home/Navbar/Nav";
 import Providers from "@/features/provider";
 import Footer from "@/Components/Home/Footer/Footer";
 import ScrollToTop from "@/Components/Helper/ScrollToTop";
+import LoadToTop from "@/Components/Helper/LoadToTop";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -32,6 +35,7 @@ export default function RootLayout({
       <body className={`${inter.className}  antialiased bg-bgColor`}>
         <Providers>
           <Nav />
+          <LoadToTop />
           {children}
           <Footer />
           <ScrollToTop />
