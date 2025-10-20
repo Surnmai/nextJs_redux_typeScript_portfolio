@@ -10,7 +10,12 @@ const Services = () => {
           Collaborate with brand <br /> and agencies to create
           <br /> impactful results
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20">
+        <div
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-center"
+          // data-aos-delay="200"
+          className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20"
+        >
           {services.map((service, idx) => (
             <div className="text-center" key={idx}>
               <Image

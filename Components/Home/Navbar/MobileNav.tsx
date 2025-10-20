@@ -56,7 +56,7 @@ const MobileNav = () => {
   return (
     <>
       <div className={` sm:hidden`}>
-        {/* overlay  */}
+        {/* dark overlay  */}
         <div
           onClick={() => {
             dispatch(closeMenuBar());

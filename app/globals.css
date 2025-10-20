@@ -10,12 +10,15 @@
   --color-navBg: #0f142ed9;
   --color-heroBg: #0c0c48aa;
   --color-skillBg: #14134145;
+  --color-formMain: #131332;
+  --color-formBg: #363659;
 }
 
 @layer base {
   section {
     @apply py-16 container;
   }
+
   html {
     overflow-x: hidden;
   }

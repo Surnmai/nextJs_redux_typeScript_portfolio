@@ -10,7 +10,11 @@ interface Props {
 const ResumeCard = ({ role, Icon, date }: Props) => {
   return (
     <>
-      <div className="mt-10">
+      <div
+        className="mt-10"
+        data-aos="zoom-in"
+        data-aos-anchor-placement="top-center"
+      >
         <div className="mt-6">
           <div className="flex items-start space-x-6 bg-blue-950/20 transition-all duration-300 p-4 sm:p-8 rounded-md">
             <div className="sm:w-14 sm:h-14 w-10 h-10 bg-blue-950 rounded-full flex items-center justify-center flex-col">

@@ -16,6 +16,8 @@ import Link from "next/link";
 import { useDispatch, useSelector } from "react-redux";
 import { setNavBg, toggleNav } from "@/features/navSlice";
 import type { AppDispatch, RootState } from "@/features/store";
+
+// import components
 import MobileNav from "./MobileNav";
 
 // const [navBg, setNavBg] = useState(false)

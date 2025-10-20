@@ -4,7 +4,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export interface ToggleState {
   navBg: boolean;
   toggle: boolean;
-  // isOpen: boolean;
+  isOpen: boolean;
 }
 
 const navSlice = createSlice({
@@ -12,7 +12,7 @@ const navSlice = createSlice({
   initialState: {
     navBg: false,
     toggle: false,
-    // isOpen: true,
+    isOpen: false,
   } as ToggleState,
   reducers: {
     setNavBg: (state, action) => {
@@ -29,8 +29,11 @@ const navSlice = createSlice({
 
       state.toggle = false;
     },
+    setToTop: (state, action) => {
+      state.isOpen = action.payload;
+    },
   },
 });
 
-export const { setNavBg, toggleNav, closeMenuBar } = navSlice.actions;
+export const { setNavBg, toggleNav, closeMenuBar, setToTop } = navSlice.actions;
 export default navSlice.reducer;

@@ -14,9 +14,13 @@ const Skills = () => {
         </h1>
 
         <div className="flex flex-wrap justify-center gap-6 mt-16">
-          {skills.map((skill) => (
+          {skills.map((skill, idx) => (
             <Tilt scale={1.5} transitionSpeed={400} key={skill.name}>
-              <div>
+              <div
+                data-aos="flip-right"
+                data-delay="300"
+                data-aos-anchor-placement={idx * 100}
+              >
                 <div className="bg-skillBg text-center w-40 h-48 rounded-3xl flex flex-col items-center justify-center shadow-lg transition hover:scale-105">
                   <div className="text-5xl mb-4 text-gray-300">
                     <skill.Icon />

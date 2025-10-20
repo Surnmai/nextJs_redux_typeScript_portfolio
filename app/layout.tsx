@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "../Components/Home/Navbar/Nav";
 import Providers from "@/features/provider";
+import Footer from "@/Components/Home/Footer/Footer";
+import ScrollToTop from "@/Components/Helper/ScrollToTop";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -31,6 +33,8 @@ export default function RootLayout({
         <Providers>
           <Nav />
           {children}
+          <Footer />
+          <ScrollToTop />
         </Providers>
       </body>
     </html>

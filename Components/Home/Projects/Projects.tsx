@@ -16,7 +16,12 @@ const Projects = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
           {projects.map((project, idx) => (
-            <div key={idx}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay={idx * 1000}
+              data-aos-anchor-placement="top-center"
+              key={idx}
+            >
               <Image
                 src={project.img}
                 alt="img"

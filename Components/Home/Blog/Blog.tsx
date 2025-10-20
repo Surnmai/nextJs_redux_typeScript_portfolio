@@ -13,7 +13,12 @@ const Blog = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 xl:gap-4 gap-10 items-center mt-16">
           {blog.map((blogg, idx) => {
             return (
-              <div key={idx}>
+              <div
+                key={idx}
+                data-aos="fade-right"
+                data-aos-delay={idx * 1000}
+                data-aos-anchor-placement="top-center"
+              >
                 <Image
                   src={blogg.img}
                   alt="blog-img"
