@@ -15,7 +15,7 @@ const Hero = () => {
         <ParticlesHero />
         <div className="relative z-10 flex flex-col items-center">
           <Image
-            src="/images/s1.jpg"
+            src="/images/s2.jpg"
             alt="heroImage"
             width={150}
             height={150}
@@ -27,7 +27,7 @@ const Hero = () => {
             data-aos-delay="200"
             className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-center font-bold tracking-wide"
           >
-            Creating web products, brands, <br />{" "}
+            Creating web products, brands, <br />
             <span className="text-cyan-200">and experience.</span>
           </h1>
           <h2
