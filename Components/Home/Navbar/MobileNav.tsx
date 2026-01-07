@@ -55,7 +55,7 @@ const MobileNav = () => {
 
   return (
     <>
-      <div className={` sm:hidden`}>
+      <div className={`sm:hidden`}>
         {/* dark overlay  */}
         <div
           onClick={() => {
