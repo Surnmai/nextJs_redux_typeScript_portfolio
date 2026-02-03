@@ -7,13 +7,15 @@ export interface ToggleState {
   isOpen: boolean;
 }
 
+const initialState: ToggleState = {
+  navBg: false,
+  toggle: false,
+  isOpen: false,
+};
+
 const navSlice = createSlice({
   name: "nav",
-  initialState: {
-    navBg: false,
-    toggle: false,
-    isOpen: false,
-  } as ToggleState,
+  initialState,
   reducers: {
     setNavBg: (state, action) => {
       // console.log({ action });
